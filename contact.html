@@ -478,8 +478,8 @@
                         </div>
 
                         <div>
-                            <h4>Phone Number</h4>
-                            <p>+91 ...</p>
+                             <h4>Phone Number</h4>
+                            <p>+91 9039806598</p>
                         </div>
 
                     </div>
@@ -505,12 +505,14 @@
 
                         <div>
                             <h4>Office Address</h4>
-                            <p>...</p>
+                            <p>First floor 67, gram musakhedi,indore</p>
                         </div>
 
                     </div>
 
                 </div>
+
+                <!-- RIGHT SIDE -->
 
                 <div class="col-lg-7">
 
@@ -520,34 +522,42 @@
                             Send Us A Message
                         </h3>
 
-                        <form>
+                 <form class="contact-form"
+      action="https://api.web3forms.com/submit"
+      method="POST">
 
-                            <div class="row">
+    <input type="hidden"
+           name="access_key"
+           value="2f27665c-1fe3-41b2-833b-56021971109b">
 
-                                <div class="col-md-6">
+    <div class="mb-3">
+        <input type="text"
+               name="name"
+               class="form-control"
+               placeholder="Your Name"
+               required>
+    </div>
 
-                                    <input type="text" class="form-control" placeholder="Your Name">
+    <div class="mb-3">
+        <input type="email"
+               name="email"
+               class="form-control"
+               placeholder="Your Email"
+               required>
+    </div>
 
-                                </div>
+    <div class="mb-3">
+        <textarea name="message"
+                  class="form-control"
+                  rows="5"
+                  placeholder="Your Message"></textarea>
+    </div>
 
-                                <div class="col-md-6">
+    <button type="submit" class="submit-btn">
+        Send Message
+    </button>
 
-                                    <input type="email" class="form-control" placeholder="Email Address">
-
-                                </div>
-
-                            </div>
-
-                            <input type="text" class="form-control" placeholder="Subject">
-
-                            <textarea class="form-control" placeholder="Write Your Message"></textarea>
-
-                            <button type="submit" class="submit-btn">
-                                Send Message
-                            </button>
-
-                        </form>
-
+</form>
                     </div>
 
                 </div>
